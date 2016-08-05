@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style> 
+.row  {
+    border-radius: 15%;
+	margin-top: 3%;
+    background: salmon;
+    padding: 2%; 
+    width: 35%;
+    height: 70%; 
+	text-align: center;
+}
+
+.cont{
+    
+        background-color: #3B3738;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 93%;
+    
+}  
+        
+html, body{
+ height: 100%;
+    
+}
+img.resize{
+   max-width:50%;
+   max-height:50%;
+}
+
+</style>
+    <title>Kayit Ol</title>
+  </head>
+
+  <body>
+            <div class="nav" align="center" style="height: 7%;">
+                <ul class="nav nav-tabs nav-justified">
+                    <li  class="active"><a href="#">Sign Up</a></li>
+                    <li><a href="./index.html">Sign In</a></li>
+                </ul>
+        </div>
+
+
+
+ <div class="cont"> 
+    <div class="container" align="center">
+      <div class="row">
+
+			
+            <form action = "./regcontrol.php" method = "POST" onsubmit="return func();">
+                <img src="./egozluk.png" class="resize" alt="logo">
+                <br />
+                <br />
+                <br />
+            
+            <div float: left;"><p></p></div>
+				
+                <div class="form-group">
+                    <label for="name">Username:</label>
+                    <input type="text" class="form-control" name="username" placeholder="Username">
+                </div>
+ 				<div class="form-group">
+					<label for="name">E-mail:</label>
+                	<input type="text" class="form-control" name="mail" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+				</div>  
+             
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" name="pass" placeholder="Password" id="pass">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Re-Enter password:</label>
+                    <input type="password" class="form-control" name="pass2" placeholder="Reenter Password" id="pass2">
+                </div> 
+               
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default" >Sign up</button>
+                </div>
+                
+			<br />
+			<br />	
+			<br />		
+            
+            
+            </form>
+			
+        </div>
+	</div>
+</div>
+		<script>
+		
+		function func(){
+				var $sif1 = document.getElementById("pass").value;
+				var $sif2 = document.getElementById("pass2").value;
+				if($sif1 == $sif2){
+					return true;
+				}else{
+					alert("sifreler farkli");
+					return false;
+				}
+		}
+		
+		</script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+root 	pw: VS4ke23MZ1
+bil471  pw: w3fSBAcOHu
+
+mysql pw: 5DyU453DEl (root user's pw)
+
+phpmyadmin pw: 5DyU453DEl ya da (EwR4tAE6n)
+
+
+
+Filezilla Ayarları
+======================
+sftp://46.101.244.93
+root
+VS4ke23MZ1
+/var/www
+
+
+nohup python ChatServer_Listen.py &
+
+
+
+
+root, bil471
+uxVa6ZDrOh
+http://46.101.193.177/
+
+
+
+<?php
+	session_start();
+
+	if(empty($_SESSION['username'])){
+		header("Location: index.html");
+		die("Redirecting to index.html"); 
+	}
+?>

@@ -1,0 +1,45 @@
+131101046 ALİ EMRE GÜLCÜ Bilgisayar Mühendisliği 4agulcu@etu.edu.tr
+121101070 ALPAY KURU Bilgisayar Mühendisliği 3 akuru@etu.edu.tr
+111101044 AYBERK HALAÇ Bilgisayar Mühendisliği 3 st111101044@etu.edu.tr
+121101047 AYŞEGÜL KAHYA Bilgisayar Mühendisliği 4 st114303018@etu.edu.tr
+111101055 BARIŞ ÖZLÜK Bilgisayar Mühendisliği 3 st111101055@etu.edu.tr
+121101044 BERK AYDIN Bilgisayar Mühendisliği 4 baydin@etu.edu.tr
+121101003 BÜŞRA KARATAY Bilgisayar Mühendisliği 4 bkaratay@etu.edu.tr
+121101066 DOĞAÇ OĞUZ Bilgisayar Mühendisliği 3 doguz@etu.edu.tr
+141101006 ELİF HANGÜL Bilgisayar Mühendisliği 3 ehangul@etu.edu.tr
+111101020 EMİRHAN BERKAY KOÇAK Bilgisayar Mühendisliği 3 st111101020@etu.edu.tr
+121101005 EŞREF OĞUZHAN YILDIRIM Bilgisayar Mühendisliği 4 eoyildirim@etu.edu.tr
+121101030 FATİH SIRIT Bilgisayar Mühendisliği 4 fsirit@etu.edu.tr
+111101066 GİZEM SEZGEN Bilgisayar Mühendisliği 4 st111101066@etu.edu.tr
+091101033 GÖZDE TOSUN Bilgisayar Mühendisliği 4 st091101033@etu.edu.tr
+121101027 IŞIKSU EKŞİOĞLU Bilgisayar Mühendisliği 4 ieksioglu@etu.edu.tr
+091101034 İBRAHİM TOPALOĞLU Bilgisayar Mühendisliği 3 st091101034@etu.edu.tr
+121101007 İBRAHİM YILMAZ Bilgisayar Mühendisliği 4 i.yilmaz@etu.edu.tr
+101101062 İREM HANHAN Bilgisayar Mühendisliği 3 st101101062@etu.edu.tr
+101101053 KAAN GONCA Bilgisayar Mühendisliği 3 st101101053@etu.edu.tr
+121101017 MEHMET FATİH ÇEKİRDEK Bilgisayar Mühendisliği 4 mfcekirdek@etu.edu.tr
+131101024 MERİÇ EREN Bilgisayar Mühendisliği 3 m.eren@etu.edu.tr
+121101049 MERİÇ ALİ YİĞİT Bilgisayar Mühendisliği 3 mayigit@etu.edu.tr
+121101061 MERT GÖRATEŞ Bilgisayar Mühendisliği 4 mgorates@etu.edu.tr
+121101063 MERT ÜNVER Bilgisayar Mühendisliği 4 m.unver@etu.edu.tr
+121101020 MERT SAMET YURTTAŞ Bilgisayar Mühendisliği 4 msyurttas@etu.edu.tr
+131101008 MUHAMMED ALİ YURDAGÜL Bilgisayar Mühendisliği 4 myurdagul@etu.edu.tr
+111101050 MUHAMMED SALİH KARAGÖZ Bilgisayar Mühendisliği 3 st111101050@etu.edu.tr
+121101032 MUSTAFA ALPEREN BOYACI Bilgisayar Mühendisliği 3 maboyaci@etu.edu.tr
+131101067 MÜCAHİT İSMAİL AKTAŞ Bilgisayar Mühendisliği 4 m.aktas@etu.edu.tr
+111105003 NECMİ ARDA ÖNAY Bilgisayar Mühendisliği 3 st111105003@etu.edu.tr
+121101024 OSMAN TUFAN TEKİN Bilgisayar Mühendisliği 4 ottekin@etu.edu.tr
+121101031 ÖZGE GÜLERYÜZ Bilgisayar Mühendisliği 4 oguleryuz@etu.edu.tr
+111101057 RABİA ERYILMAZ Bilgisayar Mühendisliği 4 st111101057@etu.edu.tr
+121101029 SALİH SAMET AKAR Bilgisayar Mühendisliği 4 ssakar@etu.edu.tr
+121101006 SELAMİ PAK Bilgisayar Mühendisliği 4 spak@etu.edu.tr
+121101009 SELÇUK ERBİLGİN Bilgisayar Mühendisliği 4 serbilgin@etu.edu.tr
+131101050 SEMİH SÜZEN Bilgisayar Mühendisliği 3 ssuzen@etu.edu.tr
+131101018 SİMAY ONGUN Bilgisayar Mühendisliği 3 songun@etu.edu.tr
+131101001 SİMLA BURCU HARMA Bilgisayar Mühendisliği 4 sharma@etu.edu.tr
+111101047 SÜHEYL AKDENİZ Bilgisayar Mühendisliği 3 st111101047@etu.edu.tr
+141101058 TOLUNAY GEDİKOĞLU Bilgisayar Mühendisliği 3 tgedikoglu@etu.edu.tr
+101101039 TUBA BİNER Bilgisayar Mühendisliği 4 st101101039@etu.edu.tr
+131101002 TÜRKBEY KUTALMIŞ UYARTAŞ Bilgisayar Mühendisliği 3 tkuyartas@etu.edu.tr
+121101025 ULAŞ ANIL AÇIKEL Bilgisayar Mühendisliği 4 uaacikel@etu.edu.tr
+131101005 YAŞAR BUDULGAN Bilgisayar Mühendisliği 3 ybudulgan@etu.edu.tr

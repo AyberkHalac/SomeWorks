@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <style> 
+.row  {
+    border-radius: 15%;
+	margin-top: 3%;
+    background: salmon;
+    padding: 2%; 
+    width: 35%;
+    height: 70%; 
+	text-align: center;
+}
+
+img.resize{
+   max-width:50%;
+   max-height:50%;
+}
+
+.cont{
+    
+        background-color: #3B3738;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 93%;
+    
+}    
+html, body{
+ height: 100%;
+    
+}
+</style>
+    <title>E-Gozluk</title>
+  </head>
+
+  <body>
+            <div class="nav" align="center" style="height: 7%;">
+                <ul class="nav nav-tabs nav-justified">
+                    <li><a href="./register.html">Sign Up</a></li>
+                    <li class="active"><a href="#">Sign In</a></li>
+                </ul>
+        </div>
+ <div class="cont"> 
+    <div class="container" align="center">
+      <div class="row">
+
+      <form action = "./logincontrol.php" method = "POST">
+			<img src="./egozluk.png" class="resize" alt="logo">
+			<br />
+			<br />
+			<br />
+            <div style=" width: 20%; float: left;"><p></p></div>
+            <div style=" width: 60%; float: left;">
+           
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="pass" placeholder="Password">
+                </div>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default" >Login</button>
+                </div>
+			<br />
+			<br />
+			<a href="register.html" align="center" style="color:black;"> Uye degil misiniz? Hemen kaydolun!</a>
+            </div>
+
+			
+            <div style=" width: 20%; float: left;"></div>
+            
+            </form>
+      </div>
+    </div>
+</div>
+
+  </body>
+</html>

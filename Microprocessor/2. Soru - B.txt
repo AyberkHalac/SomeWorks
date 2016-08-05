@@ -1,0 +1,54 @@
+org 100h
+    
+    ;Program calistigi gibi PS'nin arttirildigini ve bir sonraki buyruk icin PS += 0 yapilmasi gerektigi varsaydim. 
+	   
+    movi r0, #0x00h ; PS      
+    movi r1, #0x04h ; offset I 
+    movi r2, #0x06h ; offset A  
+    movi r3, #0x04h ; M
+    movi r4, #0x06h ; N   
+    movi r5, #0x00h ; sum
+    movi r6, #0x00h ; i  
+    movi r7, #0x01h ; M/4 
+    movi r10, #0x64h ; hlt
+    movi r13, #0x0Ch
+    movi r14, #0x08h
+    
+    ;loop for:
+        add r11, r6, r10
+        add r12, r3, r10
+     
+        accife r0, r11, r12 ; if M == i , PS += i
+        
+        movi r8, #0x00h
+        movi r9, #0x00h
+          
+        add r8, r6, r1 ; I[] offset + i
+        load r8, [r8]  ; I[i]  
+        
+        sub r15, r6, r7 ;  i - (M/4)  i buyukse else
+        add r15, r15, r14
+        accifg r0, r14, r15
+         
+        ;loop else:
+            add r8, r8, r2 ; A[] offset + I[i]
+            load r8, [r8]  ; A[I[i]] 
+            add r5, r5, r8 ; sum += A[I[i]]                    
+            add r0, r0, r13 ; jump PS += 12
+                         
+        ;loop if:
+	    movi r15, 0x01h           
+            sub r9, r4, r8 ; N - I[i]
+            sub r9, r9, r15  ; N - I[i] - 1
+            add r9, r9, r2 ; A[] offset + N - I[i] - 1
+            load r9, [r9]  ; A[] offset + r9                               
+            add r5, r5, r9 ; sum += A[S - I[i] - 1]  
+            
+
+        add r6, r6, r15 
+        movi r11, #0x00h
+        movi r12, #0x00h
+	movi r15, #0xCEh
+        sub r0, r0, r15
+
+hlt
