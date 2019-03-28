@@ -41,7 +41,7 @@ def familyNumbers(TC_NO, familySerialNumber):
 
 
 familySerialNumber = 2
-familyNumbers('10562272296', familySerialNumber)
+familyNumbers('TCNOO', familySerialNumber)
 
 
 
